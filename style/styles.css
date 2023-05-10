@@ -3,63 +3,6 @@
     src: url("../font/Montserrat-VariableFont_wght.ttf");
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-body,
-header {
-    font-family: "montserat";
-    background: #191817;
-    color: white;
-    line-height: 2.5rem;
-}
-
-
-main {
-    position: absolute;
-    top: 10;
-}
-
-.linked:any-link {
-    cursor: pointer;
-    color: white;
-    text-decoration: none;
-    padding: 2vh;
-    border: white solid;
-    border-radius: 30px;
-}
-
-.linked:hover {
-    padding: 2vh 3vh 2vh 3vh;
-    /*Top, Left, Bottom, Right*/
-    border: #bedbff solid;
-    text-decoration: underline;
-    color: #bedbff;
-    transition: 0.2s;
-}
-
-header {
-    position: fixed;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100px;
-    z-index: 10;
-}
-
-header>div {
-    display: grid;
-    grid-template-columns: 32% 32% 32%;
-    column-gap: .5%;
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-}
-
-
-
-
 @keyframes defilement {
     0% {
         margin-left: 0;
@@ -80,7 +23,63 @@ header>div {
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
+body,
+header {
+    font-family: "montserat";
+    background: #191817;
+    color: white;
+    line-height: 2.5rem;
+}
+
+
+main {
+    position: absolute;
+    top: 10;
+}
+
+/*links present on the top of the page*/
+.linked:any-link {
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding: 2vh;
+    border: white solid;
+    border-radius: 30px;
+}
+
+.linked:hover {
+    padding: 2vh 3vh 2vh 3vh;
+    /*Top, Left, Bottom, Right*/
+    border: #bedbff solid;
+    text-decoration: underline;
+    color: #bedbff;
+    transition: 0.2s;
+}
+/*Header present on a fixed position, stays on screen while scrolling*/
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+}
+
+header>div {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: .5%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/*Defiling text home page*/
 .t1,
 .t2 {
     font-family: Arial, Helvetica, sans-serif;
@@ -114,7 +113,7 @@ header>div {
     width: 197vh;
 }
 
-
+/*Rest of the content of the page*/
 .content {
     margin: 5%;
 }
