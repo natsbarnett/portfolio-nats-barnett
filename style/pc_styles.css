@@ -100,8 +100,8 @@ header>div {
     font-weight: bold;
 }
 
-.link_head:any-link{
-    color:white;
+.link_head:any-link {
+    color: white;
     text-decoration: none;
     cursor: pointer;
 }
@@ -139,7 +139,6 @@ header>div {
     height: 25vh;
     font-style: italic;
 }
-
 
 .avance {
     padding-top: 250px;
@@ -182,6 +181,7 @@ header>div {
     color: black;
     background-color: white;
     padding: 2vh;
+    max-width: 199vh;
     font-size: 45px;
 }
 
