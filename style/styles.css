@@ -131,3 +131,16 @@ header>div {
 .bd-rad{
     border-radius: 100%;
 }
+
+.card{
+    border: white solid 2px;
+    /*Top, Left, Bottom, Right*/
+    padding: 1vh 2vh 3vh 2vh;
+}
+
+.about_wh{
+    color:black;
+    background-color: white;
+    padding:2vh;
+    font-size: 50px;
+}
