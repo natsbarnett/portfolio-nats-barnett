@@ -1,0 +1,20 @@
+@font-face {
+    font-family: "montserat";
+    src: url("../font/Montserrat-VariableFont_wght.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+header {
+    font-family: "montserat";
+    background: #191817;
+    color: white;
+    line-height: 2.5rem;
+}
+
+header {
+    text-align: center;
+}
