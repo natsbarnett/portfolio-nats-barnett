@@ -23,6 +23,27 @@
     }
 }
 
+
+@keyframes inverser {
+    0% {
+        margin-left: -100%;
+    }
+
+    100% {
+        margin-left: 0;
+    }
+}
+
+@keyframes inverser2 {
+    0% {
+        margin-left: 0%;
+    }
+
+    100% {
+        margin-left: 100%;
+    }
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -59,6 +80,7 @@ main {
     color: #bedbff;
     transition: 0.2s;
 }
+
 /*Header present on a fixed position, stays on screen while scrolling*/
 header {
     position: fixed;
@@ -78,6 +100,11 @@ header>div {
     font-weight: bold;
 }
 
+.link_head:any-link{
+    color:white;
+    text-decoration: none;
+    cursor: pointer;
+}
 
 /*Defiling text home page*/
 .t1,
@@ -95,7 +122,14 @@ header>div {
     animation: defilement 40s linear infinite;
 }
 
-.avance>div {
+.txti {
+    white-space: nowrap;
+    font-size: 5rem;
+    animation: inverser 40s linear infinite;
+}
+
+.avance>div,
+.inverse>div {
     overflow: hidden;
     display: flex;
     align-items: center;
@@ -109,6 +143,11 @@ header>div {
 
 .avance {
     padding-top: 250px;
+    position: relative;
+    width: 197vh;
+}
+
+.inverse {
     position: relative;
     width: 197vh;
 }
@@ -135,20 +174,26 @@ header>div {
     border: white solid 2px;
     /*Top, Left, Bottom, Right*/
     padding: 1vh 2vh 3vh 2vh;
+    text-align: justify;
+    text-justify: auto;
 }
 
 .about_wh {
     color: black;
     background-color: white;
     padding: 2vh;
-    font-size: 50px;
+    font-size: 45px;
 }
 
 .about_wh p {
     line-height: 9vh;
-    max-width: 125vh;
+    max-width: 110vh;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
     text-justify: auto;
+}
+
+.bold {
+    font-weight: bold;
 }
