@@ -198,7 +198,7 @@ header>div {
     font-weight: bold;
 }
 
-.about_bl h2{
+.about_bl h2 {
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 2px white;
     -webkit-text-fill-color: transparent;
@@ -206,11 +206,11 @@ header>div {
     font-style: italic;
 }
 
-.about_bl{
-    margin:5%;
+.about_bl {
+    margin: 5%;
 }
 
-.about_bl p{
+.about_bl p {
     font-size: 35px;
     line-height: 9vh;
     max-width: 120vh;
@@ -220,15 +220,15 @@ header>div {
     text-justify: auto;
 }
 
-.title_project{
+.title_project {
     font-family: Arial, Helvetica, sans-serif;
     -webkit-text-stroke: 2px white;
     -webkit-text-fill-color: transparent;
-    font-size: 9vh;
+    font-size: 90px;
     font-style: italic;
 }
 
-.para_proj{
+.para_proj {
     font-size: 35px;
     line-height: 9vh;
     max-width: 120vh;
@@ -238,6 +238,194 @@ header>div {
     text-justify: auto;
 }
 
-.top_pad{
+.top_pad {
     padding-top: 5%;
+    background-color: #121212;
+}
+
+.resultat {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    column-gap: 4%;
+    max-width: 120vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resultat div {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    max-width: 50vh;
+    padding: 1rem;
+    background: #030303;
+    color: white;
+    border: white solid;
+    box-shadow: 0 2px 20px white;
+    border-radius: 20px;
+}
+
+.resultat div:hover {
+    color: #bedbff;
+    border: #bedbff solid;
+    box-shadow: 0 2px 20px #bedbff;
+    transition: 0.2s;
+}
+
+.resultat.games>.games,
+.resultat.websites>.websites,
+.resultat.videos>.videos,
+.resultat.others>.others {
+    display: none;
+}
+
+
+.filter {
+    display: grid;
+    margin: 5% auto;
+    grid-template-columns: 23% 24% 24% 23%;
+    column-gap: .5%;
+    justify-content: center;
+    /*max-width: 28vh;*/
+}
+
+.filter div {
+    margin: 10px;
+}
+
+.filter div label {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+.filter div label span {
+    position: relative;
+    display: inline-block;
+    background: #3b3b3b;
+    padding: 20px 20px;
+    color: #555;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, .5);
+    border-radius: 60px;
+    font-size: 20px;
+    transition: 0.5s;
+    user-select: none;
+    overflow: hidden;
+}
+
+.filter div label span:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: rgba(255, 255, 255, .1);
+
+}
+
+.filter div label input[type="checkbox"]:checked~span {
+    background: white;
+    color: black;
+}
+
+.filter div label input[type="checkbox"] {
+    display: none;
+}
+
+.see_more:any-link {
+    color: black;
+    background-color: white;
+    padding: 2%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    text-decoration: none;
+    max-width: 100%;
+}
+
+.see_more:hover {
+    color: black;
+    background-color: #bedbff;
+    padding: 3%;
+    text-align: center;
+    transition: 0.4s;
+}
+
+.card_t {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    display: flex;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    text-align: center;
+}
+
+.card_p {
+    color: white;
+}
+
+.frame {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkd:any-link {
+    display: block;
+    margin-top: 5%;
+    max-width: 50vh;
+    padding: 1rem;
+    color: white;
+    border: white solid;
+    border-radius: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkd:hover {
+    text-decoration: underline;
+    transition: 0.2s;
+    color: #bedbff;
+    border: #bedbff solid;
+}
+
+.proj_title{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    -webkit-text-stroke: 2px white;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.img_proj{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: white solid;
+}
+
+.images{
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.im_flex{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.wh_link:any-link{
+    color:white;
+    cursor: pointer;
+}
+
+.wh_link:hover{
+    color:#bedbff
 }
