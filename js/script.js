@@ -7,7 +7,7 @@ document.querySelectorAll("input").forEach(e => { e.addEventListener("change", f
 function filtre() {
     document.querySelector(".resultat").classList.toggle(this.name);
 }
-document.querySelector("title").innerText="Project • " + projects[project]["title"];
+document.querySelector("title").innerText = "Project • " + projects[project]["title"];
 
 /*Filling the page of the projects with JS*/
 document.querySelector(".title_proj").innerHTML = "<h2 class=\"title_project\">" + " " + projects[project]["title"] + " • " + projects[project]["title"] + " • " + projects[project]["title"] + " • </h2>";

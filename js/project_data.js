@@ -31,7 +31,7 @@ const projects = {
     },
     "portfolio": {
         "title": "My Portfolio",
-        "desc": "To put all my work inside the same place, I decided to make a portfolio. This website is still not responsive but I'm working on it as much as I can! I am trying to put all of my knowledge I acquire while in school into this website. Maybe one day, this website will be available and adapted for mobile screens, for now, it's preferable to visit it on pc screens.",
+        "desc": "To put all my work inside the same place, I decided to make a portfolio. This website is still not entirely responsive yet but I'm working on it as much as I can! I am trying to put all of my knowledge I acquire while in school into this website. Maybe one day, this website will be available and adapted for mobile screens, for now, it's preferable to visit it on pc screens.",
         "link": "",
         "img": "<img src=\"../img/portfolio_img.png\" width=\"50%\" class=\"img_proj\">",
     },
