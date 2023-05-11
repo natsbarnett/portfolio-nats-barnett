@@ -374,6 +374,10 @@ header {
         margin-right: auto;
     }
 
+    .link_res{
+        display: none;
+    }
+
     .linkd:any-link {
         display: block;
         margin-top: 5%;
