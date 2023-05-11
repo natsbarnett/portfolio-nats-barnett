@@ -23,14 +23,14 @@ const projects = {
     "ltwoptl": {
         "title": "Light the Way OP 【Promo MV】• French TL",
         "desc": "As we prepared the closed captions of the original version, we also prepared some translations. I have been working on the French Translation of this MV.",
-        "link": "<iframe class=\"frame\" width=\"50%\" height=\"50%\" src=\"https://www.youtube.com/embed/rXX2gnxzVCg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "link": "<iframe class=\"frame\" width=\"720\" height=\"360\" src=\"https://www.youtube.com/embed/rXX2gnxzVCg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
         "img": "<img src=\"../img/op_tl_meme.jpg\" width=\"25%\" class=\"img_proj\">",
         "linkres":"<a href=\"https://www.youtube.com/watch?v=rXX2gnxzVCg\" class=\"linkd\" target=\"_blank\">Link to the video</a>",
     },
     "clips": {
         "title": "Clipping Vtubers",
         "desc": "In my free time, I have the habit to clip some VTubers I enjoy watching.",
-        "link": "<iframe class=\"frame\" width=\"50%\" height=\"50%\" src=\"https://www.youtube.com/embed/5BAY9KFlGH4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "link": "<iframe class=\"frame\" width=\"720\" height=\"360\" src=\"https://www.youtube.com/embed/5BAY9KFlGH4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
         "img": "<img src=\"../img/meme_clip.jpg\" width=\"25%\" class=\"img_proj\">",
         "linkres":"<a href=\"https://youtu.be/5BAY9KFlGH4\" class=\"linkd\" target=\"_blank\">Link to the video</a>",
     },
