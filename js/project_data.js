@@ -2,7 +2,7 @@ const projects = {
     "luxiemdatingsim": {
         "title": "Light The Way • Luxiem Dating Sim",
         "desc": "I have been part of the project \"Light The Way • Luxiem Dating Sim\" in Simporiem Studios as Mysta's route programmer. This Dating Sim has been made with Ren'Py a Python based programming language.",
-        "link": "<iframe class=\"frame\" frameborder=\"0\"  src=\"https://itch.io/embed/1843062?border_width=0&amp;bg_color=191817&amp;fg_color=ffffff&amp;link_color=bdbdbd&amp;border_color=191817\" width=\"100%\" height=\"100%\">><a href=\"https://simporiem-studios.itch.io/light-the-way\" target=\"_blank\">Light the Way by Simporiem Studios</a></iframe>",
+        "link": "<iframe class=\"frame\" frameborder=\"0\"  src=\"https://itch.io/embed/1843062?border_width=0&amp;bg_color=191817&amp;fg_color=ffffff&amp;link_color=bdbdbd&amp;border_color=191817\" width=\"600\" height=\"100%\">><a href=\"https://simporiem-studios.itch.io/light-the-way\" target=\"_blank\">Light the Way by Simporiem Studios</a></iframe>",
         "img": "<img src=\"../img/ltwlds_im2.png\" width=\"50%\" class=\"img_proj\">",
         "linkres":"<a href=\"https://simporiem-studios.itch.io/light-the-way\" class=\"linkd\" target=\"_blank\">Link to the project</a>",
     },
@@ -44,7 +44,7 @@ const projects = {
     "luxcardg": {
         "title": "Luxiem Card Game",
         "desc":"For fun, back in november 2022, I decided to create a card game on Luxiem, the game has a few rules found in a little handbook and a set of 136 base cards and questions. The unseiso expansion adds 24 cards and 2 special tweet cards.",
-        "link": "<iframe class =\"frame\" frameborder=\"0\" src=\"https://itch.io/embed/1771013?border_width=0&amp;bg_color=191817&amp;fg_color=ffffff&amp;link_color=bdbdbd&amp;border_color=191817\" width=\"50%\" height=\"50%\"><a href=\"https://natsbarnett.itch.io/luxiem-card-game\">Luxiem Card Game by Nats Barnett</a></iframe>",
+        "link": "<iframe class =\"frame\" frameborder=\"0\" src=\"https://itch.io/embed/1771013?border_width=0&amp;bg_color=191817&amp;fg_color=ffffff&amp;link_color=bdbdbd&amp;border_color=191817\" width=\"600\" height=\"100%\"><a href=\"https://natsbarnett.itch.io/luxiem-card-game\">Luxiem Card Game by Nats Barnett</a></iframe>",
         "img":"<img src=\"../img/lux_card_g.png\" width=\"50%\" class=\"img_proj\">",
         "linkres":"<a href=\"https://natsbarnett.itch.io/luxiem-card-game\" class=\"linkd\" target=\"_blank\">Link to the project</a>",
     },
