@@ -42,9 +42,6 @@
     }
 
     .about {
-        display: grid;
-        grid-template-columns: 30% 30%;
-        column-gap: 2%;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
@@ -53,7 +50,7 @@
     .card {
         border: white solid 2px;
         /*Top, Left, Bottom, Right*/
-        padding: 10% 20% 30% 20%;
+        padding: 5% 5% 5% 5%;
         text-align: left;
         text-justify: auto;
     }
@@ -77,7 +74,7 @@
 
     .about_bl p {
         font-size: 20px;
-        line-height: 4vh;
+        line-height: 3rem;
         max-width: 120vh;
         margin-left: auto;
         margin-right: auto;
