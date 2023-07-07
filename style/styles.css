@@ -65,6 +65,20 @@ body {
 }
 /* No more Wyyrthura */
 
+.grid{
+    display: grid;
+    grid-template-columns: 45% 45%;
+    column-gap: 2.5%;
+    row-gap: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid>iframe{
+    display: block;
+    margin:0 auto;
+}
+
 @media only screen and (min-width: 768px) {
     main {
         position: absolute;
@@ -238,8 +252,8 @@ body {
     }
 
     .para_proj {
-        font-size: 35px;
-        line-height: 9vh;
+        font-size: 30px;
+        line-height: 2.5rem;
         max-width: 120vh;
         margin-left: auto;
         margin-right: auto;

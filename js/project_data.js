@@ -1,10 +1,11 @@
 const projects = {
     "luxiemdatingsim": {
         "title": "Light The Way • Luxiem Dating Sim",
-        "desc": "I have been part of the project \"Light The Way • Luxiem Dating Sim\" in Simporiem Studios as Mysta's route programmer. This Dating Sim has been made with Ren'Py a Python based programming language.",
+        "desc": "From August 2022 to April 2023, I have been part of the project <em>\"Light The Way • Luxiem Dating Sim\"</em> in Simporiem Studios as Mysta's route programmer. This Dating Sim has been made with Ren'Py a Python based programming language.<br>This game was initially created for the first anniversary of the 4th talents wave from Nijisanji: Luxiem.<br><br><b>NOTE</b>: This game is a FANgame and is not affiliated to Anycolor Inc.",
         "link": "<iframe class=\"frame\" frameborder=\"0\"  src=\"https://itch.io/embed/1843062?border_width=0&amp;bg_color=191817&amp;fg_color=ffffff&amp;link_color=bdbdbd&amp;border_color=191817\" width=\"600\" height=\"100%\">><a href=\"https://simporiem-studios.itch.io/light-the-way\" target=\"_blank\">Light the Way by Simporiem Studios</a></iframe>",
-        "img": "<img src=\"../img/ltwlds_im2.png\" width=\"50%\" class=\"img_proj\">",
+        "img": "<div class=\"grid\"><img src=\"../img/ltwlds_im2.png\" width=\"100%\" class=\"img_proj\"><img src=\"../img/screenshot0119.webp\" width=\"100%\" class=\"img_proj\"><img src=\"../img/screenshot0159.webp\" width=\"100%\" class=\"img_proj\"><img src=\"../img/game_itch.png\" width=\"100%\" class=\"img_proj\"></div>",
         "linkres":"<a href=\"https://simporiem-studios.itch.io/light-the-way\" class=\"linkd\" target=\"_blank\">Link to the project</a>",
+        "useful_links":"",
     },
     "optionguide": {
         "title": "Luxiem Dating Sim • Option Guide",
@@ -12,6 +13,7 @@ const projects = {
         "link": "<a href = \"https://natsbarnett.github.io/luxiem-dating-sim-options-guide/\" class=\"linkd\" target=\"_blank\">Link to the website</a>",
         "img": "<img src=\"../img/option_guide_im.png\" width=\"50%\" class=\"img_proj\">",
         "linkres":"",
+        "useful_links":"",
     },
     "genshintest": {
         "title": "Genshin Impact Experience Test",
@@ -19,6 +21,7 @@ const projects = {
         "link": "<a href=\"https://natsbarnett.github.io/genshin-test/\" class=\"linkd\" target=\"_blank\">Link to the website</a>",
         "img": "<img src=\"../img/ft_test_im.png\" width=\"50%\" class=\"img_proj\">",
         "linkres":"",
+        "useful_links":"",
     },
     "ltwoptl": {
         "title": "Light the Way OP 【Promo MV】• French TL",
@@ -26,13 +29,15 @@ const projects = {
         "link": "<iframe class=\"frame\" width=\"720\" height=\"360\" src=\"https://www.youtube.com/embed/rXX2gnxzVCg\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
         "img": "<img src=\"../img/op_tl_meme.jpg\" width=\"25%\" class=\"img_proj\">",
         "linkres":"<a href=\"https://www.youtube.com/watch?v=rXX2gnxzVCg\" class=\"linkd\" target=\"_blank\">Link to the video</a>",
+        "useful_links":"",
     },
     "clips": {
         "title": "Clipping Vtubers",
         "desc": "In my free time, I have the habit to clip some VTubers I enjoy watching.",
-        "link": "<iframe class=\"frame\" width=\"720\" height=\"360\" src=\"https://www.youtube.com/embed/5BAY9KFlGH4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>",
+        "link": "<div class=\"grid\"><iframe class=\"vids\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/5BAY9KFlGH4\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><iframe class=\"vids\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/_epBBZxtA4o\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe><iframe class=\"vids\" width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/WWIVcrCpLcw\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe></div>",
         "img": "<img src=\"../img/meme_clip.jpg\" width=\"25%\" class=\"img_proj\">",
-        "linkres":"<a href=\"https://youtu.be/5BAY9KFlGH4\" class=\"linkd\" target=\"_blank\">Link to the video</a>",
+        "linkres":"<a href=\"https://www.youtube.com/playlist?list=PL40UFul3xcLaeiSQaqWlfCJacpTKn8SQd\" class=\"linkd\" target=\"_blank\">Link a Youtube playlist</a>",
+        "useful_links":"",
     },
     "portfolio": {
         "title": "My Portfolio",
@@ -40,6 +45,7 @@ const projects = {
         "link": "",
         "img": "<img src=\"../img/portfolio_img.png\" width=\"50%\" class=\"img_proj\">",
         "linkres":"",
+        "useful_links":"",
     },
     "luxcardg": {
         "title": "Luxiem Card Game",
@@ -47,5 +53,6 @@ const projects = {
         "link": "<iframe class =\"frame\" frameborder=\"0\" src=\"https://itch.io/embed/1771013?border_width=0&amp;bg_color=191817&amp;fg_color=ffffff&amp;link_color=bdbdbd&amp;border_color=191817\" width=\"600\" height=\"100%\"><a href=\"https://natsbarnett.itch.io/luxiem-card-game\">Luxiem Card Game by Nats Barnett</a></iframe>",
         "img":"<img src=\"../img/lux_card_g.png\" width=\"50%\" class=\"img_proj\">",
         "linkres":"<a href=\"https://natsbarnett.itch.io/luxiem-card-game\" class=\"linkd\" target=\"_blank\">Link to the project</a>",
+        "useful_links":"",
     },
 }

@@ -8,7 +8,8 @@
     .inverse>div,
     .avance,
     .inverse,
-    .top_pad {
+    .top_pad, 
+    .vids {
         display: none;
     }
 
@@ -367,7 +368,7 @@
     }
 
     .para_proj {
-        font-size: 20px;
+        font-size: 15px;
         line-height: 5vh;
         max-width: 120vh;
         margin-left: 5%;
@@ -375,4 +376,11 @@
         text-align: justify;
         text-justify: auto;
     }
+
+    .grid{
+        display: block !important;
+        margin-top: 2%;
+        margin: 0 auto;
+    }
+
 }
