@@ -55,4 +55,12 @@ const projects = {
         "linkres":"<a href=\"https://natsbarnett.itch.io/luxiem-card-game\" class=\"linkd\" target=\"_blank\">Link to the project</a>",
         "useful_links":"",
     },
+    "bsddaily": {
+        "title": "BSD Daily Facts Archive",
+        "desc":"To archive a Twitter account of a friend (@BsdDailyFacts), I decided, with them, to create a website. To create it, I used a JavaScript data base and some scripts in JavaScript.",
+        "link": "<a href = \"https://natsbarnett.github.io/bsd-daily-facts-archive/\" class=\"linkd\" target=\"_blank\">Link to the website</a>",
+        "img":"<div class=\"grid\"><img src = \"../img/bsd_daily_facts_1.png\" width=\"100%\" class=\"img_proj\"><img src = \"../img/bsd_daily_facts_2.png\" width=\"100%\" class=\"img_proj\"></div>",
+        "linkres":"",
+        "useful_links":"",
+    },
 }
