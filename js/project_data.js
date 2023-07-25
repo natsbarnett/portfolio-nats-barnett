@@ -47,14 +47,7 @@ const projects = {
         "linkres":"",
         "useful_links":"",
     },
-    "luxcardg": {
-        "title": "Luxiem Card Game",
-        "desc":"For fun, back in november 2022, I decided to create a card game on Luxiem, the game has a few rules found in a little handbook and a set of 136 base cards and questions. The unseiso expansion adds 24 cards and 2 special tweet cards.",
-        "link": "<iframe class =\"frame\" frameborder=\"0\" src=\"https://itch.io/embed/1771013?border_width=0&amp;bg_color=191817&amp;fg_color=ffffff&amp;link_color=bdbdbd&amp;border_color=191817\" width=\"600\" height=\"100%\"><a href=\"https://natsbarnett.itch.io/luxiem-card-game\">Luxiem Card Game by Nats Barnett</a></iframe>",
-        "img":"<img src=\"../img/lux_card_g.png\" width=\"50%\" class=\"img_proj\">",
-        "linkres":"<a href=\"https://natsbarnett.itch.io/luxiem-card-game\" class=\"linkd\" target=\"_blank\">Link to the project</a>",
-        "useful_links":"",
-    },
+    
     "bsddaily": {
         "title": "BSD Daily Facts Archive",
         "desc":"To archive a Twitter account of a friend (@BsdDailyFacts), I decided, with them, to create a website. To create it, I used a JavaScript data base and some scripts in JavaScript.",
